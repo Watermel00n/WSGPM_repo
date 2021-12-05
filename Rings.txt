@@ -1,0 +1,21 @@
+@Kopernicus:AFTER[WGMP]
+{
+    @Body[____] // Name of your gas planet
+    {
+        Rings
+        {
+            Ring
+            {
+                angle = ____
+                outerRadius = ____
+                innerRadius = ____
+                texture = ______ // put the file path of the rings you want to use here, like in the gas planet file
+                lockRotation = true
+		color = #ffffff
+                unlit = false
+		useNewShader = True
+		penumbraMultipler = 10.0
+            }
+        }
+    }
+}
